@@ -76,6 +76,7 @@ li {
 
 header {
     height: calc(100vh - 80px);
+    display: flex; /* Ensure proper layout for child elements */
 }
 
 .header__container {
@@ -85,7 +86,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .header__description {
